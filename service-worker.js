@@ -1,6 +1,5 @@
-importScripts("/clustered-cloud/precache-manifest.3bdd488675da487c429d0afb6f94f6df.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
 /* eslint-disable no-undef, no-underscore-dangle, no-restricted-globals */
+importScripts('/clustered-cloud/precache-manifest.3bdd488675da487c429d0afb6f94f6df.js', 'https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 
 self.addEventListener('message', (e) => {
   if (!e.data) {
