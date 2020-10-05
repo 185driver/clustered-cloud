@@ -26,26 +26,28 @@
       />
       <v-snackbar
         v-model="snackWithButtons"
-        timeout="-1"
         bottom
         left
-        class="snack"
+        timeout="-1"
       >
         {{ snackWithBtnText }}
-        <v-spacer />
-        <v-btn
-          text
-          color="#00f500"
-          @click.native="snackBtnHandler"
-        >
-          {{ snackBtnText }}
-        </v-btn>
-        <v-btn
-          icon
-          @click="closeSnackWithButtons"
-        >
-          <v-icon>{{ icons.mdiClose }}</v-icon>
-        </v-btn>
+        <template #action="{ attrs }">
+          <v-btn
+            text
+            color="#00f500"
+            v-bind="attrs"
+            @click.stop="snackBtnHandler"
+          >
+            {{ snackBtnText }}
+          </v-btn>
+          <v-btn
+            icon
+            class="ml-4"
+            @click="closeSnackWithButtons"
+          >
+            <v-icon>{{ icons.mdiClose }}</v-icon>
+          </v-btn>
+        </template>
       </v-snackbar>
     </v-main>
     <footer-trial />
