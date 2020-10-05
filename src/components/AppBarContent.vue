@@ -15,7 +15,7 @@
         bottom
         offset-y
       >
-        <template v-slot:activator="{ on }">
+        <template #activator="{ on }">
           <v-btn
             text
             to="/platform"
@@ -31,7 +31,7 @@
         bottom
         offset-y
       >
-        <template v-slot:activator="{ on }">
+        <template #activator="{ on }">
           <v-btn
             text
             v-on="on"
@@ -62,7 +62,7 @@
         bottom
         offset-y
       >
-        <template v-slot:activator="{ on }">
+        <template #activator="{ on }">
           <v-btn
             text
             v-on="on"

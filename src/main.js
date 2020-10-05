@@ -6,7 +6,7 @@ import '@/registerServiceWorker';
 import App from '@/App';
 import vueHeadful from 'vue-headful';
 
-Vue.component('vue-headful', vueHeadful);
+Vue.component('VueHeadful', vueHeadful);
 
 Vue.config.productionTip = false;
 

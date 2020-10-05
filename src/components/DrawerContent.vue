@@ -35,7 +35,7 @@
             :key="i"
             append-icon=""
           >
-            <template v-slot:activator>
+            <template #activator>
               <v-list-item
                 :to="entry.to"
                 class="subtitle-3 pl-0"

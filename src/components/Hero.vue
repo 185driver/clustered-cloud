@@ -23,7 +23,7 @@
             </v-avatar>
             Thank you for supporting us on Product Hunt!
             Sign up to claim your special deal 😊
-            <template v-slot:actions>
+            <template #actions>
               <v-btn
                 outlined
                 to="/signup/trial"

@@ -18,7 +18,7 @@
               class="mb-12"
               color="#ffffff"
             >
-              <template v-slot:icon>
+              <template #icon>
                 <v-avatar
                   tile
                   size="36"
@@ -26,7 +26,7 @@
                   <img :src="imgInUse">
                 </v-avatar>
               </template>
-              <template v-slot:opposite>
+              <template #opposite>
                 <span class="title text--secondary">New project</span>
               </template>
               <v-card>
@@ -43,12 +43,12 @@
               class="mb-12 process-step"
               color="#ffffff"
             >
-              <template v-slot:icon>
+              <template #icon>
                 <v-icon size="36">
                   {{ icons.mdiGit }}
                 </v-icon>
               </template>
-              <template v-slot:opposite>
+              <template #opposite>
                 <span class="title text--secondary">Push code</span>
               </template>
               <v-card>
@@ -64,7 +64,7 @@
               class="process-step"
               color="#ffffff"
             >
-              <template v-slot:icon>
+              <template #icon>
                 <v-progress-circular
                   v-if="loading"
                   indeterminate
@@ -78,7 +78,7 @@
                   {{ icons.mdiCheck }}
                 </v-icon>
               </template>
-              <template v-slot:opposite>
+              <template #opposite>
                 <span class="title text--secondary">Deploy</span>
               </template>
               <v-card>
