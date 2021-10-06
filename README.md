@@ -4,4 +4,4 @@ This is a partial reimplementation of the [Clustered](https://clustered.com/) pu
 
 I chose this particular site as the focus of my side project in part for the tools the company used to build their site, and in part because the design of the site is so well done. It contains a wide variety of visually-interesting elements and layouts, it's fully responsive, and it just looks so nice.
 
-**Note**: I have only tested this project on Chrome. There are known layout issues with other browsers, but they lie outside the scope of my purposes here. However, PRs to fix issues you may notice are welcome.
+**Note**: I have only tested this project on Chrome. There are known layout issues with other browsers, but they lie outside the scope of my purposes here.
