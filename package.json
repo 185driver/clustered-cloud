@@ -18,7 +18,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@mdi/js": "^5.3.45",
+    "@mdi/js": "^5.9.55",
     "date-fns": "^2.25.0",
     "register-service-worker": "^1.7.2",
     "remove-hover": "^0.1.0",
