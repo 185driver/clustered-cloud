@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@mdi/js": "^5.9.55",
-    "date-fns": "^2.25.0",
+    "date-fns": "^2.29.3",
     "register-service-worker": "^1.7.2",
     "remove-hover": "^0.1.0",
     "roboto-fontface": "*",
